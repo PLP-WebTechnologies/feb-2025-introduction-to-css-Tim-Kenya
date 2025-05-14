@@ -1,0 +1,81 @@
+/* Global styles for better readability */
+body {
+    font-family: 'Arial', sans-serif; /* A common and readable sans-serif font */
+    line-height: 1.6; /* Improves text readability */
+    color: #333; /* Dark gray for good contrast */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Reset default body margin */
+    padding: 20px; /* Add some padding around the body content */
+}
+
+/* Header styling using ID selector */
+#main-title {
+    font-family: 'Georgia', serif; /* A classic serif font for the main title */
+    color: #007bff; /* A nice blue color */
+    text-align: center; /* Center the title */
+    margin-bottom: 10px; /* Add some space below the title */
+}
+
+/* Tagline styling using class selector */
+.tagline {
+    font-style: italic; /* Make the tagline italic */
+    color: #6c757d; /* A muted gray color */
+    text-align: center; /* Center the tagline */
+    margin-bottom: 20px; /* Add space below the tagline */
+}
+
+/* Container to center content */
+.container {
+    max-width: 960px; /* Limit the maximum width of the content */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #fff; /* White background for the content area */
+    padding: 30px; /* Add padding inside the container */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling the image using class selector */
+.hero-image {
+    width: 100%; /* Make the image responsive within its container */
+    max-height: 300px; /* Limit the maximum height of the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border: 5px solid #ddd; /* Light gray border around the image */
+    margin-bottom: 20px; /* Add space below the image */
+    border-radius: 4px; /* Slightly rounded corners for the image */
+}
+
+/* Styling content sections using class selector */
+.content-section {
+    margin-bottom: 30px; /* Space between content sections */
+    padding: 20px; /* Add padding inside the content sections */
+    border: 1px solid #eee; /* Light border for visual separation */
+    border-radius: 4px; /* Slightly rounded corners for the sections */
+}
+
+.content-section h2 {
+    color: #28a745; /* A green color for the section titles */
+    margin-bottom: 10px; /* Space below the section title */
+}
+
+.highlight {
+    font-weight: bold; /* Make highlighted text bold */
+    color: #dc3545; /* A red color for emphasis */
+}
+
+/* Styling the list items */
+.feature-item {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+/* Footer styling using class selector */
+footer {
+    text-align: center; /* Center the footer text */
+    padding: 10px; /* Add padding to the footer */
+    color: #777; /* Light gray text for the footer */
+    font-size: 0.9em; /* Slightly smaller font size */
+    margin-top: 20px; /* Add space above the footer */
+}
+
+.copyright {
+    font-style: italic; /* Italicize the copyright text */
+}
